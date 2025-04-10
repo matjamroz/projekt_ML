@@ -1,6 +1,0 @@
-Walidacja przez zespół nr.8
-
-Zespół walidacyjny ocenił, że pierwszy kamień milowy został w większości zrealizowany na bardzo wysokim poziomie. Zgłoszono jednak kilka uwag:
--Nie usunięto duplikatów (problem rozwiązany).
--Nie przeprowadzono podziału na zestawy (problem rozwiązany).
--Podczas analizy zbitek słów emotikony dominują w danych, co budzi wątpliwości zespołu walidacyjnego – istnieje ryzyko, że mogą one negatywnie wpływać na jakość przetwarzanych informacji.
