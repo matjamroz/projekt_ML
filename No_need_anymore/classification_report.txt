@@ -1,0 +1,110 @@
+Liczba badanych binów: 1
+Dokładność modelu: 0.0850
+
+Raport klasyfikacji:
+                      precision    recall  f1-score   support
+
+      Bombali Ghevda       0.00      0.00      0.00        17
+        Butka Ghevda       0.00      0.00      0.00        17
+       Gabara Ghevda       0.00      0.00      0.00        16
+             God Wal       0.00      0.00      0.00        17
+          Hirva Lamb       0.00      0.00      0.00        16
+            Kadu wal       0.00      0.00      0.00        16
+            Kala Wal       0.00      0.00      0.00        17
+     Lal lamb shenga       0.09      1.00      0.16        17
+Lamb Shiracha Ghevda       0.00      0.00      0.00        16
+      Shravan Ghevda       0.00      0.00      0.00        17
+          Tambda wal       0.00      0.00      0.00        17
+       Vatana Ghevda       0.00      0.00      0.00        17
+
+            accuracy                           0.09       200
+           macro avg       0.01      0.08      0.01       200
+        weighted avg       0.01      0.09      0.01       200
+Liczba badanych binów: 1
+Dokładność modelu: 0.0839
+
+Raport klasyfikacji:
+                      precision    recall  f1-score   support
+
+      Bombali Ghevda       0.00      0.00      0.00        27
+        Butka Ghevda       0.00      0.00      0.00        27
+       Gabara Ghevda       0.00      0.00      0.00        27
+             God Wal       0.00      0.00      0.00        27
+          Hirva Lamb       0.00      0.00      0.00        27
+            Kadu wal       0.00      0.00      0.00        26
+            Kala Wal       0.08      1.00      0.15        27
+     Lal lamb shenga       0.00      0.00      0.00        27
+Lamb Shiracha Ghevda       0.00      0.00      0.00        27
+      Shravan Ghevda       0.00      0.00      0.00        26
+          Tambda wal       0.00      0.00      0.00        27
+       Vatana Ghevda       0.00      0.00      0.00        27
+
+            accuracy                           0.08       322
+           macro avg       0.01      0.08      0.01       322
+        weighted avg       0.01      0.08      0.01       322
+Liczba badanych binów: 2
+Dokładność modelu: 0.7484
+
+Raport klasyfikacji:
+                      precision    recall  f1-score   support
+
+      Bombali Ghevda       0.59      0.63      0.61        27
+        Butka Ghevda       0.83      0.89      0.86        27
+       Gabara Ghevda       0.86      0.67      0.75        27
+             God Wal       0.45      0.48      0.46        27
+          Hirva Lamb       0.88      0.81      0.85        27
+            Kadu wal       0.54      0.54      0.54        26
+            Kala Wal       0.85      0.81      0.83        27
+     Lal lamb shenga       0.79      0.96      0.87        27
+Lamb Shiracha Ghevda       0.88      0.81      0.85        27
+      Shravan Ghevda       0.78      0.69      0.73        26
+          Tambda wal       0.86      0.93      0.89        27
+       Vatana Ghevda       0.74      0.74      0.74        27
+
+            accuracy                           0.75       322
+           macro avg       0.75      0.75      0.75       322
+        weighted avg       0.75      0.75      0.75       322
+Liczba badanych binów: 3
+Dokładność modelu: 0.8571
+
+Raport klasyfikacji:
+                      precision    recall  f1-score   support
+
+      Bombali Ghevda       0.62      0.78      0.69        27
+        Butka Ghevda       1.00      0.93      0.96        27
+       Gabara Ghevda       0.90      0.96      0.93        27
+             God Wal       0.56      0.56      0.56        27
+          Hirva Lamb       0.96      0.93      0.94        27
+            Kadu wal       0.83      0.77      0.80        26
+            Kala Wal       0.93      0.96      0.95        27
+     Lal lamb shenga       0.87      0.96      0.91        27
+Lamb Shiracha Ghevda       0.88      0.81      0.85        27
+      Shravan Ghevda       0.89      0.92      0.91        26
+          Tambda wal       1.00      0.93      0.96        27
+       Vatana Ghevda       0.95      0.78      0.86        27
+
+            accuracy                           0.86       322
+           macro avg       0.87      0.86      0.86       322
+        weighted avg       0.87      0.86      0.86       322
+Liczba badanych binów: 4
+Dokładność modelu: 0.8913
+
+Raport klasyfikacji:
+                      precision    recall  f1-score   support
+
+      Bombali Ghevda       0.78      0.78      0.78        27
+        Butka Ghevda       1.00      0.96      0.98        27
+       Gabara Ghevda       0.93      0.93      0.93        27
+             God Wal       0.63      0.70      0.67        27
+          Hirva Lamb       1.00      1.00      1.00        27
+            Kadu wal       0.91      0.77      0.83        26
+            Kala Wal       1.00      0.96      0.98        27
+     Lal lamb shenga       0.81      0.96      0.88        27
+Lamb Shiracha Ghevda       0.88      0.78      0.82        27
+      Shravan Ghevda       0.96      1.00      0.98        26
+          Tambda wal       1.00      1.00      1.00        27
+       Vatana Ghevda       0.85      0.85      0.85        27
+
+            accuracy                           0.89       322
+           macro avg       0.90      0.89      0.89       322
+        weighted avg       0.90      0.89      0.89       322
