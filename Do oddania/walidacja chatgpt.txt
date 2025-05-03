@@ -1,0 +1,38 @@
+---ETAP 1---
+-Brak sprawdzenia i usunięcia duplikatów(uwzględnione)
+-Brak podziału danych(uwzględnione)
+-Przetłumaczenie emotikonów może częsciowo zaśmiecać dane, bo wtedy jak jest mierzona liczność zbitek słów to emotikony dominują
+
+---ETAP 2---
+1) Przed tworzeniem modeli wartoby dodać komentarz
+	co chcemy sprawdzić
+2) Przy wizualizacji ROC Curve wartoby zadbać żeby dana 
+	klasa wskazywała do jakiego 'Reviev' się odnosi
+	(tzn żeby krzywa 'Class 1' odpowiadała Reviev=1,
+	jak rozumiem teraz numeracja jest przypadkowa )
+3) Skoro przewidujemy 'Reviev' to
+	 gdy zamiast wartośći 5 otrzymamy 1 jest większym
+	 błędem niż gdy otrzymamy 4, F1 score traktuje takie błędy jednakowo,
+ 	zespół walidacyjny sugeruje wprowadzenie wag błędów, ewentualnie zmianę metryki
+4) Zespół walidacyjny sugeruje również zmiane modeli Naive Bayes lub/i Decision Tree na inne(np. XGBoost) z uwagi na ich niską skuteczność(uwzględnione)
+5) Zespół walidacyjny sugeruje dodanie macierzy konfuzji(uwzględnione)
+
+---ETAP 3---
+Zespół walidacyjny zauważa wdrożenie sugesti zaproponowanych po etapie 2.
+
+
+Uwagi do: budowa_krok_2_6_preliminary_modelling.ipynb
+Uzasadnienie wyboru finalnego modelu jest zadowalające, z jednym zastrzeżeniem:
+Wstępne modele wydają się być porównane tylko dla random state = 42,
+nie sprawdzono czy nie jest to szczególny, niemiarodajny przypdek,
+sugerujemy porównanie wyników modeli dla różnych random state.
+Rozumiejąc, że mogłoby to wiązać się z koniecznością ewentualnego wykonania od nowa fine-tuningu dalsze uwagi dajemy przyjmując wstępny wybór modelu za właściwy
+
+Uwagi do: budowa_krok_3_6_fine_tuning.ipynb
+Metodę doboru parametrów uważamy za zadowalającą.
+Wybrane ostatecznie parametry wydają się być dobrze dopasowane,
+ponownie sugerujmy porównanie dla kilku różnych wartości random state.
+
+Uwagi ogólne:
+Przy prezentacji macierzy pomyłek sugerujemy wykorzystanie heatmapy - lepsza przejrzystość
+Zastosowane metryki są zadowaljące, niemniej warto ustalić liczbę wyświetlanych cyfr znaczących, ograniczenie się do częsci tysięcznych wydaje się wystarczjąco miarodajnym a zapewni większą czytelność wyników
