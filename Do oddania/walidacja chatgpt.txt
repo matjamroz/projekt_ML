@@ -1,7 +1,7 @@
 ---ETAP 1---
--Brak sprawdzenia i usunięcia duplikatów(uwzględnione)
--Brak podziału danych(uwzględnione)
--Przetłumaczenie emotikonów może częsciowo zaśmiecać dane, bo wtedy jak jest mierzona liczność zbitek słów to emotikony dominują
+1) Brak sprawdzenia i usunięcia duplikatów(uwzględnione)
+2) Brak podziału danych(uwzględnione)
+3) Przetłumaczenie emotikonów może częsciowo zaśmiecać dane, bo wtedy jak jest mierzona liczność zbitek słów to emotikony dominują
 
 ---ETAP 2---
 1) Przed tworzeniem modeli wartoby dodać komentarz
